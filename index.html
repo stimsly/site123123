@@ -5,9 +5,21 @@
   </head>
   <body>
     <div class="main1">
-      <div class="layer">
+      <div class="layer" onMouseOver="faceb.src='img/social/o_fb.png'; mysound.play();" onMouseOut="faceb.src='img/social/up_fb.png'">
         Валеру взорвал сф
       </div>
+    </div>
+    <div class="whole">
+      <audio id="mySoundClip">
+        <source src="kriki.mp3" type="audio/mp3" />
+       </audio>
+      <script type="text/javascript">
+          var mysound = document.getElementById("mySoundClip");
+      </script> 
+    <div id="social">
+      
+        <a href="#"><img name="faceb" width="40" onMouseOver="faceb.src='img/social/o_fb.png'; mysound.play();" onMouseOut="faceb.src='img/social/up_fb.png'" class="soc"/></a>
+    </div>
     </div>
   </body>
 </html>
